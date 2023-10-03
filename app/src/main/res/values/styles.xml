@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CameraButtons" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_camera_buttons</item>
+    </style>
+
+    <style name="RotateButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_flip</item>
+    </style>
+
+    <style name="FlashButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_bolt</item>
+    </style>
+
+    <style name="FlashButtonOff" parent="FlashButton">
+        <item name="android:tint">@color/button_off</item>
+    </style>
+
+    <style name="EventButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_event</item>
+    </style>
+
+    <style name="EventButtonOff" parent="EventButton">
+        <item name="android:tint">@color/button_off</item>
+    </style>
+
+    <style name="LocationButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_location</item>
+    </style>
+
+    <style name="LocationButtonOff" parent="LocationButton">
+        <item name="android:tint">@color/button_off</item>
+    </style>
+
+    <style name="MusicButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_music</item>
+    </style>
+
+    <style name="MusicButtonOff" parent="MusicButton">
+        <item name="android:tint">@color/button_off</item>
+    </style>
+
+    <style name="OverlayButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_overlay</item>
+    </style>
+
+    <style name="OverlayButtonOff" parent="OverlayButton">
+        <item name="android:tint">@color/button_off</item>
+    </style>
+
+    <style name="SettingsButton" parent="CameraButtons">
+        <item name="android:src">@drawable/ic_settings</item>
+    </style>
+
+    <style name="DualPictureButtonBackground" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_overlay</item>
+    </style>
+
+    <style name="DualPictureButton" parent="DualPictureButtonBackground">
+        <item name="android:src">@drawable/ic_camera_large</item>
+    </style>
+
+    <style name="CaptureButtonBackground" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_capture</item>
+    </style>
+
+    <style name="CaptureButton" parent="CaptureButtonBackground">
+        <item name="android:src">@drawable/ic_plus</item>
+        <item name="android:tint">@color/purple_700</item>
+    </style>
+</resources>

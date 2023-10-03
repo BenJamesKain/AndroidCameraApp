@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CameraTest2</string>
+    <string name="camera_button">Camera Button</string>
+    <string name="event_2">Event 2</string>
+    <string name="event_1">Event 1</string>
+    <string name="settings">Settings</string>
+    <string name="location">Location</string>
+    <string name="overlay">Overlay</string>
+    <string name="music_2">Music 2</string>
+    <string name="rotate">Rotate</string>
+    <string name="flash">Flash</string>
+    <string name="music_1">Music 1</string>
+    <string name="dual_picture">Dual Picture</string>
+    <string name="capture">Capture</string>
+</resources>
